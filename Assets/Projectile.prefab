@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114707522927467044}
   - component: {fileID: 58982109595737692}
   - component: {fileID: 50404194303116810}
+  - component: {fileID: 114486342553095690}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: PlayerStandardBulletTrigger
@@ -121,6 +122,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &114486342553095690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1842376084883562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee34f27f210df474b82526ac37e0aee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseX: 0
+  mouseY: 0
+  playerX: 0
+  playerY: 0
+  projectileSpeed: 0.25
+  hiddenTimer: 0
+  secondTimer: 0
+  bulletRange: 10
 --- !u!114 &114707522927467044
 MonoBehaviour:
   m_ObjectHideFlags: 1

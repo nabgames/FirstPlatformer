@@ -21,12 +21,12 @@ public class PlayerScript : MonoBehaviour {
     public float hiddenTimer;
     public float secondTimer;
 
-
+    public float playerX;
+    public float playerY;
 
     // Use this for initialization
     void Start () {
 
-        playerHealth = 1f;
         rb = GetComponent<Rigidbody2D>();
         bulletMaxCoolDown = 25f;
        
@@ -35,6 +35,9 @@ public class PlayerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+        playerX = transform.position.x;
+        playerY = transform.position.y;
+
         if (playerHealth < 1)
         {
             Destroy(gameObject);

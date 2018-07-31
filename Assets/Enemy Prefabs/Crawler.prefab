@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114132424185077526}
   - component: {fileID: 61211489572925544}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Crawler
   m_TagString: EnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1172868345813180}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.893936, y: 1.2806518, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8, y: 0.85, z: 0}
+  m_LocalScale: {x: 1, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f920b09acbac05a4393a6b31fe669945, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -121,4 +121,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c82d0602e2214ce40a16bd425b9c5abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 1
+  Player: {fileID: 0}
+  playerScript: {fileID: 0}
+  enemyHealth: 5
+  enemyDropRate: 0
+  enemyMovementType: Crawl
+  Temper: Mean
+  Scale: Medium
+  Speed: 0.25
+  startX: 0
+  startY: 0
+  xMin: 0
+  xMax: 0
+  yMin: 0
+  yMax: 0
+  moveRight: 0
+  Attack: 0
+  moveBiasX: 0
+  moveBiasY: 0

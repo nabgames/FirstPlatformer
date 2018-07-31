@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StandardPlayerProjectileScript : MonoBehaviour {
+public class PlayerProjectileScript : MonoBehaviour {
     public float mouseX;
     public float mouseY;
     public float playerX;
     public float playerY;
-    public float projectileSpeed = .5f;
+    public float projectileSpeed = .25f;
     public float hiddenTimer;
     public float secondTimer;
 
