@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114132424185077526}
   - component: {fileID: 61211489572925544}
   m_Layer: 0
-  m_Name: Crawler
+  m_Name: Crawler 1
   m_TagString: EnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
